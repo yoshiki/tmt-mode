@@ -118,6 +118,7 @@
   (define-key tmt-mode-map "\C-cl" 'tempo-template-tmt-insert-start-line)
   )
 
+;;;###autoload
 (define-derived-mode tmt-mode fundamental-mode "Text::MicroTemplate"
   "Simple mode to edit Text::MicroTemplate.
 
